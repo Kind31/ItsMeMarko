@@ -1,9 +1,13 @@
-import './App.css'
+import './main.scss'
+import Navigation from './components/Navigation'
+import SocialMedia from './components/SocialMedia'
 
 function App() {
   return (
-    <div className='App'>
+    <div className='root'>
+      <Navigation />
       <h1>mooi</h1>
+      <SocialMedia />
     </div>
   )
 }
