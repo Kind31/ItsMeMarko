@@ -3,10 +3,10 @@ import LinkedIn from '../img/linkedin.svg'
 import GitHub from '../img/github.svg'
 import Instagram from '../img/instagram.svg'
 
-class SocialMedia extends React.Component {
+class Footer extends React.Component {
   render() {
     return (
-      <div className='socialMedia'>
+      <footer className='socialMedia'>
         <div className='container'>
           <a
             href='https://instagram.com/realmarkoboy'
@@ -26,9 +26,9 @@ class SocialMedia extends React.Component {
             <img src={GitHub} alt='github' />
           </a>
         </div>
-      </div>
+      </footer>
     )
   }
 }
 
-export default SocialMedia
+export default Footer

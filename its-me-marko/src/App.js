@@ -1,14 +1,15 @@
 import './main.scss'
 import Navigation from './components/Navigation'
-import SocialMedia from './components/SocialMedia'
+import Footer from './components/Footer'
+import AboutMe from './components/AboutMe'
 
 function App() {
   return (
-    <div className='root'>
+    <>
       <Navigation />
-      <h1>mooi</h1>
-      <SocialMedia />
-    </div>
+      <AboutMe />
+      <Footer />
+    </>
   )
 }
 
